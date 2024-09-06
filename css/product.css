@@ -1,0 +1,94 @@
+nav ul {
+    display: flex;
+    background: #ffffff;
+    height: 100px;
+    align-items: center;
+    list-style: none;
+    margin-top: -20px;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+
+}
+body{
+    font-family: sans-serif;
+    margin:auto;
+}
+header{
+    text-align: center;
+    background-color: rgba(251, 239, 227, 0.689);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 10px;
+    margin-top: -17px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+
+}
+li a{
+   padding: 10px;
+   text-decoration: none;
+   color: black;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 10px;
+}
+.card{
+    background-color: white;
+    width: 31%;
+    height: 28vh;
+    margin: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.full-card{
+    width: 98%;
+}
+th {
+    border-bottom: 1px solid #fff;
+}
+td,th {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+td:nth-child(1),th:nth-child(1) {
+    background: #0a9ef9;
+}
+td:nth-child(2), th:nth-child(2) {
+    background: #0989da;
+}
+td:nth-child(3), th:nth-child(3) {
+    background: #0879bf;
+}
+td:nth-child(4), th:nth-child(4) {
+    background: #0767a2;
+}
+caption {
+    font-size: 50px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+ul li:hover {
+    background: #ead9d9;
+}
+ul li {
+    padding: 30px;
+}
+ul li a { 
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
